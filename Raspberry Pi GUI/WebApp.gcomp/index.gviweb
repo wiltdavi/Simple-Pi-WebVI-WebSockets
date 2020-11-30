@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="B1303338675199A37EFA120DDCED4624E46332ACCD8ED4AAD0366EB299A7CB7EC71625210FD76A545136E70FBABA5AB17F5D950C27C8BA83F0F3FA401F082DC1" Timestamp="1D6B2039E3ABD81" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="E8ECAE6AB17270ACF6893AC0932E8C235D012B2A23DDE8A6B4206BE9D28F644C9407D00861E3C9C9C420AA9BC106AFF7DC15955F8D5188449FFDF93F21030304" Timestamp="1D6C591CFAC7A36" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -438,7 +438,7 @@
 			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="65aefe9a990c4acc98bb7def0856672c" IsReadOnly="[bool]True" Label="[UIModel]aa3852ee494648d0a35968ed1bc95087" Left="[float]132" TabIndex="[int]2" Text="{DataItemBinding Id=ee30480e89864c7fa1f72311278d76dd}" Top="[float]36" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]216" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="aa3852ee494648d0a35968ed1bc95087" LabelOwner="[UIModel]65aefe9a990c4acc98bb7def0856672c" Left="[float]132" Text="[string]WebSockets URL" Top="[float]16" Width="[float]89" xmlns="http://www.ni.com/PanelCommon" />
 			<ComboboxSelector AllowDifferentText="[bool]True" AllowUndefinedValueEntry="[bool]False" BaseName="[string]Combo Box" Height="[float]24" Id="d2e10f95d4654129b35558bb69acd277" IsTypeAheadEnabled="[bool]True" Label="[UIModel]20f72cb68ec64eda9637b78c82271f31" Left="[float]20" TabIndex="[int]3" Top="[float]100" Value="{DataItemBinding Id=fe4cdab9bc144ddbbca804bde93bc1f}" ValueType="[Type]String" VisualMode="[SelectorVisualMode]ComboBoxStyle" Width="[float]328" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<ComboboxSelectorInfo DisplayValue="[string]Detroit" DisplayValueOverride="[string]" Id="32" IsEnabled="[bool]True" Value="[string]America/Detroit" ValueType="[Type]String" />
+				<ComboboxSelectorInfo DisplayValue="[string]Detroit" DisplayValueOverride="[string]" Id="32" IsEnabled="[bool]True" Value="[string]America/New_York" ValueType="[Type]String" />
 				<ComboboxSelectorInfo DisplayValue="[string]Chicago" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[string]America/Chicago" ValueType="[Type]String" />
 				<ComboboxSelectorInfo DisplayValue="[string]Denver" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[string]America/Denver" ValueType="[Type]String" />
 			</ComboboxSelector>
