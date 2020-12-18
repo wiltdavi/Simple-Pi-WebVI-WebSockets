@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="D9B8AF1866B3A4C078A73A5A65AA6B688772CD796E882A1D2E131BE349293615EA810446EDDB0FC878526652AACCD2FD444E9D216E954E80672DBDD61C170AE9" Timestamp="1D6D3DF5E015BA5" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="3E72958C393FFF660DBB9DC4380415027FA41AB94EE09FC253FF2BA64C317E2BD65A7D6694652656FBC02EDDF43E4428FD4A24D8BAD00DA2B9208CD108230EB7" Timestamp="1D6D54647FCD3C4" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -38,7 +38,7 @@
 		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
 		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
 		<BlockDiagram Id="12">
-			<WhileLoop Bounds="285 110 605 275" DiagramId="17" Id="16">
+			<WhileLoop Bounds="285 110 665 275" DiagramId="17" Id="16">
 				<LoopIteration Bounds="5 245 15 15" Id="18" />
 				<LoopCondition Bounds="570 240 15 15" Id="19" />
 				<Literal Bounds="535 240 25 15" DataType="Boolean" Id="20" Label="21" xmlns="http://www.ni.com/MocCommon">
@@ -49,12 +49,12 @@
 					<p.Text>stop</p.Text>
 				</NodeLabel>
 				<Wire Id="22" Joints="N(20:Out)|(560,245) N(19:Input)|(570,245)" xmlns="http://www.ni.com/PlatformFramework" />
-				<CaseStructure Bounds="25 10 545 220" DataType="@bab23b69c95d4df8a7acd5c3bfe8bb21" Default="bc97462496cb44fb8dcb46b3998a46a0" Id="944a7210b6404c528b037c2907a360c3" Selected="22b6e555f2804cbdab11224e0494001d" UserSelectorBounds="190 0 165 17">
-					<CaseStructure.Case Bounds="5 5 535 210" Id="bc97462496cb44fb8dcb46b3998a46a0" Pattern="&quot;Initialise&quot;, Default">
-						<Wire Id="3b619f4a6de24eaca433d05041ed3506" Joints="N(c452da1976684915a2b0f021f5e24c2a:Out)|(325,45) N(19aa43ec57d5415bbdc759490fd9775f:bc97462496cb44fb8dcb46b3998a46a0)|(531,45)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="a3db578289cc4071a084a1ef2a59aac3" Joints="N(4235520a4ccc4575b10ec0b8618d5bcd:bc97462496cb44fb8dcb46b3998a46a0)|(4,110) N(2151374c14914c8199678abab46bcc8e:bc97462496cb44fb8dcb46b3998a46a0)|(531,110)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="4c45052b54a43e482b5da478ced99e7" Joints="N(a902f523ea4142bd9637428837064125:bc97462496cb44fb8dcb46b3998a46a0)|(4,140) N(35f1bfa3c4d44e0fb2afb776c6e1f7a6:bc97462496cb44fb8dcb46b3998a46a0)|(531,140)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="5199a29efb144c4ca9557563a1687bdf" Joints="N(e576e0ed0ef747f38e30339448dd7bde:bc97462496cb44fb8dcb46b3998a46a0)|(4,180) N(f3448bbf5859469a9e301e78146b548b:bc97462496cb44fb8dcb46b3998a46a0)|(531,180)" xmlns="http://www.ni.com/PlatformFramework" />
+				<CaseStructure Bounds="25 10 615 220" DataType="@bab23b69c95d4df8a7acd5c3bfe8bb21" Default="bc97462496cb44fb8dcb46b3998a46a0" Id="944a7210b6404c528b037c2907a360c3" Selected="ebc1706fe541429eb803b3dcd4c78c8a" UserSelectorBounds="225 0 165 17">
+					<CaseStructure.Case Bounds="5 5 605 210" Id="bc97462496cb44fb8dcb46b3998a46a0" Pattern="&quot;Initialise&quot;, Default">
+						<Wire Id="3b619f4a6de24eaca433d05041ed3506" Joints="N(c452da1976684915a2b0f021f5e24c2a:Out)|(325,45) N(19aa43ec57d5415bbdc759490fd9775f:bc97462496cb44fb8dcb46b3998a46a0)|(601,45)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="a3db578289cc4071a084a1ef2a59aac3" Joints="N(4235520a4ccc4575b10ec0b8618d5bcd:bc97462496cb44fb8dcb46b3998a46a0)|(4,110) N(2151374c14914c8199678abab46bcc8e:bc97462496cb44fb8dcb46b3998a46a0)|(601,110)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="4c45052b54a43e482b5da478ced99e7" Joints="N(a902f523ea4142bd9637428837064125:bc97462496cb44fb8dcb46b3998a46a0)|(4,140) N(35f1bfa3c4d44e0fb2afb776c6e1f7a6:bc97462496cb44fb8dcb46b3998a46a0)|(601,140)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="5199a29efb144c4ca9557563a1687bdf" Joints="N(e576e0ed0ef747f38e30339448dd7bde:bc97462496cb44fb8dcb46b3998a46a0)|(4,180) N(f3448bbf5859469a9e301e78146b548b:bc97462496cb44fb8dcb46b3998a46a0)|(601,180)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Literal Bounds="225 40 100 15" DataType="@bab23b69c95d4df8a7acd5c3bfe8bb21" Id="c452da1976684915a2b0f021f5e24c2a" Label="23a37e237e984267bf54edd04aae34c0" p7:ControlDefinitionChecksum="WqAt3snMqfkImYiLXOCBPLk9EPJ0KDoktICw+tgXPMs=" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>1</p.Data>
 							<p7:p.TypeDefinitionTargets>
@@ -67,7 +67,7 @@
 							<p.Text>State</p.Text>
 						</NodeLabel>
 					</CaseStructure.Case>
-					<CaseStructure.Case Bounds="5 5 535 210" Id="e1fd37b2eb414ea0921b652410e254a5" Pattern="&quot;Connecting&quot;">
+					<CaseStructure.Case Bounds="5 5 605 210" Id="e1fd37b2eb414ea0921b652410e254a5" Pattern="&quot;Connecting&quot;">
 						<MethodCall Bounds="205 105 40 40" Id="b30b5baa5d4e4ccfaf6d171c442494b6" ResolveFailedHint="Open WebSocket.gvi, Package: (LabVIEW NXG Web Module G Websockets Library Files, Version: 5.0.0)" Signature="@7f5554bab76e44e582805f175899e8d9" Target="NI::WebSockets::Open WebSocket.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
@@ -86,10 +86,10 @@
 							<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="String" Direction="Output" Hotspot="25 0" Id="T1" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
-						<Wire Id="607bb9997ff947649dd28d7e73ce0141" Joints="N(b30b5baa5d4e4ccfaf6d171c442494b6:R3)|(245,140) h(40) B(1) N(35f1bfa3c4d44e0fb2afb776c6e1f7a6:e1fd37b2eb414ea0921b652410e254a5)|(531,140) B(1) v(-50) B(3) N(285c15a3d99142d7847bc63865bdf19b:x)|(300,90) B(3) v(-45) N(e55742b58d854e9d9e950cbde0dfc0dc:s)|(445,45)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="607bb9997ff947649dd28d7e73ce0141" Joints="N(b30b5baa5d4e4ccfaf6d171c442494b6:R3)|(245,140) h(40) B(1) N(35f1bfa3c4d44e0fb2afb776c6e1f7a6:e1fd37b2eb414ea0921b652410e254a5)|(601,140) B(1) v(-50) B(3) N(285c15a3d99142d7847bc63865bdf19b:x)|(300,90) B(3) v(-45) N(e55742b58d854e9d9e950cbde0dfc0dc:s)|(445,45)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Select Bounds="445 25 40 40" Id="e55742b58d854e9d9e950cbde0dfc0dc" />
-						<Wire Id="8718dc84dfad4f4b989809027d4a89ef" Joints="N(e55742b58d854e9d9e950cbde0dfc0dc:s? t:f)|(485,45) N(19aa43ec57d5415bbdc759490fd9775f:e1fd37b2eb414ea0921b652410e254a5)|(531,45)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="1659b4a73878479bb57af80f82be18f4" Joints="N(b30b5baa5d4e4ccfaf6d171c442494b6:R0)|(245,110) N(2151374c14914c8199678abab46bcc8e:e1fd37b2eb414ea0921b652410e254a5)|(531,110)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="8718dc84dfad4f4b989809027d4a89ef" Joints="N(e55742b58d854e9d9e950cbde0dfc0dc:s? t:f)|(485,45) N(19aa43ec57d5415bbdc759490fd9775f:e1fd37b2eb414ea0921b652410e254a5)|(601,45)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="1659b4a73878479bb57af80f82be18f4" Joints="N(b30b5baa5d4e4ccfaf6d171c442494b6:R0)|(245,110) N(2151374c14914c8199678abab46bcc8e:e1fd37b2eb414ea0921b652410e254a5)|(601,110)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="9fe5a3d7e6ac4caab440a5a9e6a4c247" Joints="N(4b21576e220f4112ba25b8487a27cbf6:e1fd37b2eb414ea0921b652410e254a5)|(4,75) h(176) v(45) N(b30b5baa5d4e4ccfaf6d171c442494b6:L1)|(205,120)" xmlns="http://www.ni.com/PlatformFramework" />
 						<DataAccessor Bounds="340 85 40 15" DataItem="f1a6bbfb1ae64a2299e32e9034d4245b" Id="db98820a66b4f4994d77a7897339cf5" Label="cd5a0096a722452d835f510543737322" xmlns="http://www.ni.com/MocCommon">
 							<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
@@ -137,7 +137,7 @@
 							<p.Text>milliseconds to wait</p.Text>
 						</NodeLabel>
 						<Wire Id="390c2ea8ddc41ae992de25b4d6c425d" Joints="N(66475c13678f472f9a6aa285afabb6a1:Out)|(85,40) N(3a6594ae3e5d4bfe8fac5fb0a504cc87:time to wait)|(115,40)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="302d166d9644f9ba2cb80701bf40c52" Joints="N(e576e0ed0ef747f38e30339448dd7bde:e1fd37b2eb414ea0921b652410e254a5)|(4,180) N(f3448bbf5859469a9e301e78146b548b:e1fd37b2eb414ea0921b652410e254a5)|(531,180)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="302d166d9644f9ba2cb80701bf40c52" Joints="N(e576e0ed0ef747f38e30339448dd7bde:e1fd37b2eb414ea0921b652410e254a5)|(4,180) N(f3448bbf5859469a9e301e78146b548b:e1fd37b2eb414ea0921b652410e254a5)|(601,180)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Literal Bounds="335 25 100 15" DataType="@bab23b69c95d4df8a7acd5c3bfe8bb21" Id="5618e6e562f446f1b62bccc431091ef4" Label="a91fc686133b4ab487f8b28b9f38d2f0" p7:ControlDefinitionChecksum="WqAt3snMqfkImYiLXOCBPLk9EPJ0KDoktICw+tgXPMs=" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>1</p.Data>
 							<p7:p.TypeDefinitionTargets>
@@ -163,7 +163,7 @@
 						</NodeLabel>
 						<Wire Id="adf26b27adc84ec19540a8e4749220dd" Joints="N(86fbee6d62024e639282cfdac1d6fdcf:Out)|(435,60) N(e55742b58d854e9d9e950cbde0dfc0dc:f)|(445,60)" xmlns="http://www.ni.com/PlatformFramework" />
 					</CaseStructure.Case>
-					<CaseStructure.Case Bounds="5 5 535 210" Id="22b6e555f2804cbdab11224e0494001d" Pattern="&quot;Read&quot;">
+					<CaseStructure.Case Bounds="5 5 605 210" Id="22b6e555f2804cbdab11224e0494001d" Pattern="&quot;Read&quot;">
 						<MethodCall Bounds="110 105 40 40" Id="550948fb398e40e7951193559c95ed15" ResolveFailedHint="Read String.gvi, Package: (LabVIEW NXG Web Module G Websockets Library Files, Version: 5.0.0)" Signature="@3b8fdcf73fd84f5ab4ec2f1de5089cd5" Target="NI::WebSockets::Read String.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
@@ -201,9 +201,9 @@
 						<Wire Id="44b8b77f405f41ddbb1f8f668143d871" Joints="N(550948fb398e40e7951193559c95ed15:R1)|(150,120) N(759338fe2d974be492642f4c5ea0a6f8:Value)|(163,120)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Select Bounds="460 25 40 40" Id="335b96111fcb4668a219da8d3c9dba6e" />
 						<Wire Id="b256f2711b6d4c17b5cbd8ddbb88f651" Joints="N(53628c34bfe54453a2a2a2995c521d82:Out)|(355,30) N(335b96111fcb4668a219da8d3c9dba6e:t)|(460,30)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="16ce59754a5242798709c648b0d61e75" Joints="N(335b96111fcb4668a219da8d3c9dba6e:s? t:f)|(500,45) N(19aa43ec57d5415bbdc759490fd9775f:22b6e555f2804cbdab11224e0494001d)|(531,45)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="42cbd0351cd14a10983ec422bdb53c53" Joints="N(550948fb398e40e7951193559c95ed15:R0)|(150,110) N(2151374c14914c8199678abab46bcc8e:22b6e555f2804cbdab11224e0494001d)|(531,110)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="443b83ccb604477caa6555b3808dccda" Joints="N(550948fb398e40e7951193559c95ed15:R3)|(150,140) h(290) B(1) N(35f1bfa3c4d44e0fb2afb776c6e1f7a6:22b6e555f2804cbdab11224e0494001d)|(531,140) B(1) v(-95) N(335b96111fcb4668a219da8d3c9dba6e:s)|(460,45)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="16ce59754a5242798709c648b0d61e75" Joints="N(335b96111fcb4668a219da8d3c9dba6e:s? t:f)|(500,45) N(19aa43ec57d5415bbdc759490fd9775f:22b6e555f2804cbdab11224e0494001d)|(601,45)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="42cbd0351cd14a10983ec422bdb53c53" Joints="N(550948fb398e40e7951193559c95ed15:R0)|(150,110) N(2151374c14914c8199678abab46bcc8e:22b6e555f2804cbdab11224e0494001d)|(601,110)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="443b83ccb604477caa6555b3808dccda" Joints="N(550948fb398e40e7951193559c95ed15:R3)|(150,140) h(290) B(1) N(35f1bfa3c4d44e0fb2afb776c6e1f7a6:22b6e555f2804cbdab11224e0494001d)|(601,140) B(1) v(-95) N(335b96111fcb4668a219da8d3c9dba6e:s)|(460,45)" xmlns="http://www.ni.com/PlatformFramework" />
 						<DataAccessor Bounds="170 190 40 15" DataItem="fe4cdab9bc144ddbbca804bde93bc1f" Id="c2f4fa8d347c4d53b84c178ac0d8d0d5" Label="a8a6cc49a5cd4835bef9689beb9acd1b" xmlns="http://www.ni.com/MocCommon">
 							<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 						</DataAccessor>
@@ -211,7 +211,7 @@
 							<p.Text>Timezone</p.Text>
 						</NodeLabel>
 						<IsEqual Bounds="220 175 30 30" Id="bb8c10bf2204410aa51cfb5dfa506dc3" />
-						<Wire Id="dfbfcddce9d0486a9b825bcdc2363589" Joints="N(e576e0ed0ef747f38e30339448dd7bde:22b6e555f2804cbdab11224e0494001d)|(4,180) h(201) B(1) N(bb8c10bf2204410aa51cfb5dfa506dc3:x)|(220,180) B(1) v(-10) h(50) v(10) N(f3448bbf5859469a9e301e78146b548b:22b6e555f2804cbdab11224e0494001d)|(531,180)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="dfbfcddce9d0486a9b825bcdc2363589" Joints="N(e576e0ed0ef747f38e30339448dd7bde:22b6e555f2804cbdab11224e0494001d)|(4,180) h(201) B(1) N(bb8c10bf2204410aa51cfb5dfa506dc3:x)|(220,180) B(1) v(-10) h(50) v(10) N(f3448bbf5859469a9e301e78146b548b:22b6e555f2804cbdab11224e0494001d)|(601,180)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="8a46ee4124914719aa3431fa8ebc8add" Joints="N(c2f4fa8d347c4d53b84c178ac0d8d0d5:Value)|(210,195) N(bb8c10bf2204410aa51cfb5dfa506dc3:y)|(220,195)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Select Bounds="390 40 40 40" Id="1be87fadd4be48efbd52108b9dd5e8df" />
 						<Wire Id="eeda5e6c7f4745269243322715212952" Joints="N(1be87fadd4be48efbd52108b9dd5e8df:s? t:f)|(430,60) N(335b96111fcb4668a219da8d3c9dba6e:f)|(460,60)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -252,8 +252,8 @@
 						</NodeLabel>
 						<Wire Id="a72476b8af044bb4ae576704480314ad" Joints="N(904bffe856094e569832471c4689e85b:Out)|(370,75) N(1be87fadd4be48efbd52108b9dd5e8df:f)|(390,75)" xmlns="http://www.ni.com/PlatformFramework" />
 					</CaseStructure.Case>
-					<CaseStructure.Case Bounds="5 5 535 210" Id="ebc1706fe541429eb803b3dcd4c78c8a" Pattern="&quot;Set Timezone&quot;">
-						<MethodCall Bounds="345 105 40 40" Id="28a34de0a66246859dc09dd89564bab8" ResolveFailedHint="Write String.gvi, Package: (LabVIEW NXG Web Module G Websockets Library Files, Version: 5.0.0)" Signature="@77d0e3b489d4496bb49e21e4a9f56f16" Target="NI::WebSockets::Write String.gvi" xmlns="http://www.ni.com/MocCommon">
+					<CaseStructure.Case Bounds="5 5 605 210" Id="ebc1706fe541429eb803b3dcd4c78c8a" Pattern="&quot;Set Timezone&quot;">
+						<MethodCall Bounds="495 105 40 40" Id="28a34de0a66246859dc09dd89564bab8" ResolveFailedHint="Write String.gvi, Package: (LabVIEW NXG Web Module G Websockets Library Files, Version: 5.0.0)" Signature="@77d0e3b489d4496bb49e21e4a9f56f16" Target="NI::WebSockets::Write String.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="websocket session in" />
@@ -269,33 +269,32 @@
 							<Terminal DataType="UInt32" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
-						<Wire Id="1cb4985d788541aaa4adb9c989cce8cf" Joints="N(28a34de0a66246859dc09dd89564bab8:R3)|(385,140) h(10) B(1) N(35f1bfa3c4d44e0fb2afb776c6e1f7a6:ebc1706fe541429eb803b3dcd4c78c8a)|(531,140) B(1) v(-95) N(af577219f152458b9f65078f1a669c44:s)|(410,45) B(1) v(40) N(841becf951844aeb8365a5cb08c7d425:s)|(410,180)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="8937da8655b24a5c964d8eca7c5bc332" Joints="N(4235520a4ccc4575b10ec0b8618d5bcd:ebc1706fe541429eb803b3dcd4c78c8a)|(4,110) N(28a34de0a66246859dc09dd89564bab8:L0)|(345,110)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="ae179826c23c45a0a5a22bcc10a90b0f" Joints="N(28a34de0a66246859dc09dd89564bab8:R0)|(385,110) N(2151374c14914c8199678abab46bcc8e:ebc1706fe541429eb803b3dcd4c78c8a)|(531,110)" xmlns="http://www.ni.com/PlatformFramework" />
-						<ControlReference Bounds="95 115 85 20" Id="92e951b66c2b47b6998d8df13c53d4b0" SourceControl="d2e10f95d4654129b35558bb69acd277" />
-						<PropertyNode Bounds="195 115 119 45" Id="e4bc8bb8a95d4e218f1817a61b456784" InstanceDataType=":DotNet:NationalInstruments.Controls.Runtime.ComboBoxSelectorProxy, NationalInstruments.Controls.Runtime" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+						<Wire Id="1cb4985d788541aaa4adb9c989cce8cf" Joints="N(28a34de0a66246859dc09dd89564bab8:R3)|(535,140) h(10) B(1) N(35f1bfa3c4d44e0fb2afb776c6e1f7a6:ebc1706fe541429eb803b3dcd4c78c8a)|(601,140) B(1) v(-95) N(af577219f152458b9f65078f1a669c44:s)|(560,45) B(1) v(40) N(841becf951844aeb8365a5cb08c7d425:s)|(560,180)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="8937da8655b24a5c964d8eca7c5bc332" Joints="N(4235520a4ccc4575b10ec0b8618d5bcd:ebc1706fe541429eb803b3dcd4c78c8a)|(4,110) N(28a34de0a66246859dc09dd89564bab8:L0)|(495,110)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="ae179826c23c45a0a5a22bcc10a90b0f" Joints="N(28a34de0a66246859dc09dd89564bab8:R0)|(535,110) N(2151374c14914c8199678abab46bcc8e:ebc1706fe541429eb803b3dcd4c78c8a)|(601,110)" xmlns="http://www.ni.com/PlatformFramework" />
+						<ControlReference Bounds="15 115 85 20" Id="92e951b66c2b47b6998d8df13c53d4b0" SourceControl="d2e10f95d4654129b35558bb69acd277" />
+						<PropertyNode Bounds="115 115 119 45" Id="e4bc8bb8a95d4e218f1817a61b456784" InstanceDataType=":DotNet:NationalInstruments.Controls.Runtime.ComboBoxSelectorProxy, NationalInstruments.Controls.Runtime" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
 							<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 								<TypeDefinitionTarget TargetName="NI::G Core::Color Picker::Color.gtype" />
 							</p.TypeDefinitionTargets>
 							<PropertyItemTerminal DataType="String" Hotspot="119 25" Id="c0t0v" Path="Value" PathElementMemberKinds="Property" Usage="Optional" />
 						</PropertyNode>
-						<Wire Id="319a965a4c614969b6a1c93c58af31ff" Joints="N(92e951b66c2b47b6998d8df13c53d4b0:control reference)|(180,120) N(e4bc8bb8a95d4e218f1817a61b456784:instance in)|(195,120)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="8a076de81826487f8cebb58fd816053b" Joints="N(a902f523ea4142bd9637428837064125:ebc1706fe541429eb803b3dcd4c78c8a)|(4,140) h(181) v(-10) N(e4bc8bb8a95d4e218f1817a61b456784:error in)|(195,130)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="b41504886f0d4daaaf5e51f152c47962" Joints="N(e4bc8bb8a95d4e218f1817a61b456784:error out)|(314,130) h(21) v(10) N(28a34de0a66246859dc09dd89564bab8:L3)|(345,140)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Select Bounds="410 160 40 40" Id="841becf951844aeb8365a5cb08c7d425" />
-						<Wire Id="6f6974825c23475d929c2cff47305a79" Joints="N(841becf951844aeb8365a5cb08c7d425:s? t:f)|(450,180) N(f3448bbf5859469a9e301e78146b548b:ebc1706fe541429eb803b3dcd4c78c8a)|(531,180)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="76259d47cedf4c42ad38787e47737b7d" Joints="N(e576e0ed0ef747f38e30339448dd7bde:ebc1706fe541429eb803b3dcd4c78c8a)|(4,180) h(376) v(-15) N(841becf951844aeb8365a5cb08c7d425:t)|(410,165)" xmlns="http://www.ni.com/PlatformFramework" />
-						<DataAccessor Bounds="355 190 40 15" DataItem="fe4cdab9bc144ddbbca804bde93bc1f" Id="97ba3227128547d4a8428541a1966b02" Label="3a58ea6441a44a5181e7e790be8e5aba" xmlns="http://www.ni.com/MocCommon">
+						<Wire Id="319a965a4c614969b6a1c93c58af31ff" Joints="N(92e951b66c2b47b6998d8df13c53d4b0:control reference)|(100,120) N(e4bc8bb8a95d4e218f1817a61b456784:instance in)|(115,120)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="8a076de81826487f8cebb58fd816053b" Joints="N(a902f523ea4142bd9637428837064125:ebc1706fe541429eb803b3dcd4c78c8a)|(4,140) h(106) v(-10) N(e4bc8bb8a95d4e218f1817a61b456784:error in)|(115,130)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Select Bounds="560 160 40 40" Id="841becf951844aeb8365a5cb08c7d425" />
+						<Wire Id="6f6974825c23475d929c2cff47305a79" Joints="N(841becf951844aeb8365a5cb08c7d425:s? t:f)|(600,180) N(f3448bbf5859469a9e301e78146b548b:ebc1706fe541429eb803b3dcd4c78c8a)|(601,180)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="76259d47cedf4c42ad38787e47737b7d" Joints="N(e576e0ed0ef747f38e30339448dd7bde:ebc1706fe541429eb803b3dcd4c78c8a)|(4,180) h(526) v(-15) N(841becf951844aeb8365a5cb08c7d425:t)|(560,165)" xmlns="http://www.ni.com/PlatformFramework" />
+						<DataAccessor Bounds="505 190 40 15" DataItem="fe4cdab9bc144ddbbca804bde93bc1f" Id="97ba3227128547d4a8428541a1966b02" Label="3a58ea6441a44a5181e7e790be8e5aba" xmlns="http://www.ni.com/MocCommon">
 							<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 						</DataAccessor>
-						<NodeLabel AttachedTo="97ba3227128547d4a8428541a1966b02" Bounds="297 190 53 14" Id="3a58ea6441a44a5181e7e790be8e5aba" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="97ba3227128547d4a8428541a1966b02" Bounds="447 190 53 14" Id="3a58ea6441a44a5181e7e790be8e5aba" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Timezone</p.Text>
 						</NodeLabel>
-						<Wire Id="f5e562cc954d4454983dcab8208c1fc1" Joints="N(97ba3227128547d4a8428541a1966b02:Value)|(395,195) N(841becf951844aeb8365a5cb08c7d425:f)|(410,195)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Select Bounds="410 25 40 40" Id="af577219f152458b9f65078f1a669c44" />
-						<Wire Id="b1733a26d5444bada29019045b1e7c60" Joints="N(96469610c2cc4fcd93aadb850b5a8895:Out)|(395,30) N(af577219f152458b9f65078f1a669c44:t)|(410,30)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="5d2d186908c346df8dca0c9fffe7a46b" Joints="N(bf600c6bdae54dcb872deedf721a0174:Out)|(360,60) N(af577219f152458b9f65078f1a669c44:f)|(410,60)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Literal Bounds="295 55 65 15" DataType="@bab23b69c95d4df8a7acd5c3bfe8bb21" Id="bf600c6bdae54dcb872deedf721a0174" Label="df9a5bb1fcb642bea920bb18a8d69855" p7:ControlDefinitionChecksum="WqAt3snMqfkImYiLXOCBPLk9EPJ0KDoktICw+tgXPMs=" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+						<Wire Id="f5e562cc954d4454983dcab8208c1fc1" Joints="N(97ba3227128547d4a8428541a1966b02:Value)|(545,195) N(841becf951844aeb8365a5cb08c7d425:f)|(560,195)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Select Bounds="560 25 40 40" Id="af577219f152458b9f65078f1a669c44" />
+						<Wire Id="b1733a26d5444bada29019045b1e7c60" Joints="N(96469610c2cc4fcd93aadb850b5a8895:Out)|(545,30) N(af577219f152458b9f65078f1a669c44:t)|(560,30)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="5d2d186908c346df8dca0c9fffe7a46b" Joints="N(bf600c6bdae54dcb872deedf721a0174:Out)|(510,60) N(af577219f152458b9f65078f1a669c44:f)|(560,60)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Literal Bounds="445 55 65 15" DataType="@bab23b69c95d4df8a7acd5c3bfe8bb21" Id="bf600c6bdae54dcb872deedf721a0174" Label="df9a5bb1fcb642bea920bb18a8d69855" p7:ControlDefinitionChecksum="WqAt3snMqfkImYiLXOCBPLk9EPJ0KDoktICw+tgXPMs=" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>2</p.Data>
 							<p7:p.TypeDefinitionTargets>
 								<p7:TypeDefinitionTarget TargetName="WebApp::State.gtype" />
@@ -303,7 +302,7 @@
 							</p7:p.TypeDefinitionTargets>
 							<EnumBehavior />
 						</Literal>
-						<Literal Bounds="295 25 100 15" DataType="@bab23b69c95d4df8a7acd5c3bfe8bb21" Id="96469610c2cc4fcd93aadb850b5a8895" Label="1989c0230e564322908562d44e977994" p7:ControlDefinitionChecksum="WqAt3snMqfkImYiLXOCBPLk9EPJ0KDoktICw+tgXPMs=" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+						<Literal Bounds="445 25 100 15" DataType="@bab23b69c95d4df8a7acd5c3bfe8bb21" Id="96469610c2cc4fcd93aadb850b5a8895" Label="1989c0230e564322908562d44e977994" p7:ControlDefinitionChecksum="WqAt3snMqfkImYiLXOCBPLk9EPJ0KDoktICw+tgXPMs=" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>1</p.Data>
 							<p7:p.TypeDefinitionTargets>
 								<p7:TypeDefinitionTarget TargetName="WebApp::State.gtype" />
@@ -311,43 +310,86 @@
 							</p7:p.TypeDefinitionTargets>
 							<EnumBehavior />
 						</Literal>
-						<NodeLabel AttachedTo="bf600c6bdae54dcb872deedf721a0174" Bounds="295 38 30 14" Id="df9a5bb1fcb642bea920bb18a8d69855" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="bf600c6bdae54dcb872deedf721a0174" Bounds="445 38 30 14" Id="df9a5bb1fcb642bea920bb18a8d69855" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>State</p.Text>
 						</NodeLabel>
-						<NodeLabel AttachedTo="96469610c2cc4fcd93aadb850b5a8895" Bounds="295 8 30 14" Id="1989c0230e564322908562d44e977994" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="96469610c2cc4fcd93aadb850b5a8895" Bounds="445 8 30 14" Id="1989c0230e564322908562d44e977994" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>State</p.Text>
 						</NodeLabel>
-						<Wire Id="ad3c52a683e64ae8b1201ab387c1a2f3" Joints="N(af577219f152458b9f65078f1a669c44:s? t:f)|(450,45) N(19aa43ec57d5415bbdc759490fd9775f:ebc1706fe541429eb803b3dcd4c78c8a)|(531,45)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="fa1f710ea384447387818b03ea00a18e" Joints="N(e4bc8bb8a95d4e218f1817a61b456784:c0t0v)|(314,140) h(10) v(-20) N(28a34de0a66246859dc09dd89564bab8:L1)|(345,120)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="ad3c52a683e64ae8b1201ab387c1a2f3" Joints="N(af577219f152458b9f65078f1a669c44:s? t:f)|(600,45) N(19aa43ec57d5415bbdc759490fd9775f:ebc1706fe541429eb803b3dcd4c78c8a)|(601,45)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="2ff5b3ae708d46b3a5f2e3d360c2bfc0" Joints="N(cd6099e48117484ea045a70194f0c0b9:error out)|(435,170) h(49) v(-30) N(28a34de0a66246859dc09dd89564bab8:L3)|(495,140)" xmlns="http://www.ni.com/PlatformFramework" />
+						<FlattenToJson Bounds="395 135 40 40" Id="cd6099e48117484ea045a70194f0c0b9" />
+						<PropertyNode Bounds="280 115 96 50" HasErrorTerminals="False" Id="cec2517ccc0c4da98e4f4235ac7e03e6" InstanceDataType="@2991e59dc8b44a95a688868fdde81b40" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+							<PropertyItemTerminal Action="Write" DataType="String" Hotspot="0 15" Id="c0t0v" Path="Command" PathElementMemberKinds="Field" Usage="Required" />
+							<PropertyItemTerminal Action="Write" DataType="String" Hotspot="0 30" Id="c1t0v" Path="Timezone" PathElementMemberKinds="Field" Usage="Required" />
+						</PropertyNode>
+						<Wire Id="56b1012c45e748d3b29e2ecbc577e682" Joints="N(cec2517ccc0c4da98e4f4235ac7e03e6:instance out)|(376,120) h(10) v(20) N(cd6099e48117484ea045a70194f0c0b9:anything)|(395,140)" xmlns="http://www.ni.com/PlatformFramework" />
+						<ClusterLiteral Bounds="268 116 12 9" DataType="@2991e59dc8b44a95a688868fdde81b40" Id="2b0ad383acb342cbb2d31356a8a976d1" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>
+								<Cluster>
+									<Field1>""</Field1>
+									<Field2>""</Field2>
+								</Cluster>
+							</p.Data>
+							<ClusterBehavior AutoArrange="ArrangeVertically" />
+							<Literal Bounds="2 2 40 15" DataType="String" Id="1f9bdb7a1b994d3ca5ae74c15d1ac136" Label="5de48d0def7244e2bf101ef2451a3283">
+								<p.Data>""</p.Data>
+								<StringBehavior TextDisplayMode="Default" />
+							</Literal>
+							<NodeLabel AttachedTo="1f9bdb7a1b994d3ca5ae74c15d1ac136" Bounds="2 -16 30 15" Id="5de48d0def7244e2bf101ef2451a3283" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>Command</p.Text>
+							</NodeLabel>
+							<Literal Bounds="2 21 40 15" DataType="String" Id="fdde27438f8f4d039c582af027d0e584" Label="a9ac023957c467c85a6144bc95ed59b">
+								<p.Data>""</p.Data>
+								<StringBehavior TextDisplayMode="Default" />
+							</Literal>
+							<NodeLabel AttachedTo="fdde27438f8f4d039c582af027d0e584" Bounds="2 3 30 15" Id="a9ac023957c467c85a6144bc95ed59b" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>Timezone</p.Text>
+							</NodeLabel>
+							<DockedConstantFacade UndockedSize="61 48" />
+						</ClusterLiteral>
+						<Wire Facade="WireInvisibleFacade" Id="db400469bdf34eac9a366992de1c2c1d" Joints="N(2b0ad383acb342cbb2d31356a8a976d1:Out)|(329,121) v(59) h(-64) v(-60) N(cec2517ccc0c4da98e4f4235ac7e03e6:instance in)|(280,120)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+						<Literal Bounds="268 126 12 9" DataType="String" Id="d483ae8978804a768ef226feae4f822a" Label="a53856cfd2754067882dd28f78d46438" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>Timezone</p.Data>
+							<StringBehavior TextDisplayMode="Default" />
+							<DockedConstantFacade UndockedSize="70 15" />
+						</Literal>
+						<Wire Facade="WireInvisibleFacade" Id="6f0f432095644900bf5ee4b839a60062" Joints="N(d483ae8978804a768ef226feae4f822a:Out)|(338,131) v(9) h(-68) v(-10) N(cec2517ccc0c4da98e4f4235ac7e03e6:c0t0v)|(280,130)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+						<NodeLabel AttachedTo="d483ae8978804a768ef226feae4f822a" Bounds="268 108 30 15" Id="a53856cfd2754067882dd28f78d46438" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>Command</p.Text>
+						</NodeLabel>
+						<Wire Id="815bedaf3de542709c5f92bb621e28f0" Joints="N(e4bc8bb8a95d4e218f1817a61b456784:c0t0v)|(234,140) h(21) v(5) N(cec2517ccc0c4da98e4f4235ac7e03e6:c1t0v)|(280,145)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="db532317afaa417187f63ce09f6c6475" Joints="N(e4bc8bb8a95d4e218f1817a61b456784:error out)|(234,130) h(10) v(40) N(cd6099e48117484ea045a70194f0c0b9:error in (no error\))|(395,170)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="78492870bbb2487aaed639677145912e" Joints="N(cd6099e48117484ea045a70194f0c0b9:JSON string)|(435,140) h(30) v(-20) N(28a34de0a66246859dc09dd89564bab8:L1)|(495,120)" xmlns="http://www.ni.com/PlatformFramework" />
 					</CaseStructure.Case>
 					<CaseStructure.Selector Bounds="-4 45 13 10" Docking="Left" Id="37b1062ea94b442aabe16dbe5ca0ebce" Terminals="944a7210b6404c528b037c2907a360c3=5131fff3e77d447d90b938d7f57dd4d4, bc97462496cb44fb8dcb46b3998a46a0, e1fd37b2eb414ea0921b652410e254a5, 22b6e555f2804cbdab11224e0494001d, ebc1706fe541429eb803b3dcd4c78c8a" />
-					<CaseStructure.Tunnel Bounds="536 45 13 10" Docking="Right" Id="19aa43ec57d5415bbdc759490fd9775f" Terminals="944a7210b6404c528b037c2907a360c3=c906ca2dc08a4e99abeec0d54dba3c39, bc97462496cb44fb8dcb46b3998a46a0=3b619f4a6de24eaca433d05041ed3506, e1fd37b2eb414ea0921b652410e254a5=8718dc84dfad4f4b989809027d4a89ef, 22b6e555f2804cbdab11224e0494001d=16ce59754a5242798709c648b0d61e75, ebc1706fe541429eb803b3dcd4c78c8a=ad3c52a683e64ae8b1201ab387c1a2f3" />
-					<CaseStructure.Tunnel Bounds="536 140 13 10" Docking="Right" Id="35f1bfa3c4d44e0fb2afb776c6e1f7a6" LinkedTunnel="a902f523ea4142bd9637428837064125" Terminals="944a7210b6404c528b037c2907a360c3=e1a91c57a9f244faa0d66ad056dead42, bc97462496cb44fb8dcb46b3998a46a0=4c45052b54a43e482b5da478ced99e7, e1fd37b2eb414ea0921b652410e254a5=607bb9997ff947649dd28d7e73ce0141, 22b6e555f2804cbdab11224e0494001d=443b83ccb604477caa6555b3808dccda, ebc1706fe541429eb803b3dcd4c78c8a=1cb4985d788541aaa4adb9c989cce8cf" />
-					<CaseStructure.Tunnel Bounds="536 110 13 10" Docking="Right" Id="2151374c14914c8199678abab46bcc8e" Terminals="944a7210b6404c528b037c2907a360c3=b4358336be61414db3047727542189e3, bc97462496cb44fb8dcb46b3998a46a0=a3db578289cc4071a084a1ef2a59aac3, e1fd37b2eb414ea0921b652410e254a5=1659b4a73878479bb57af80f82be18f4, 22b6e555f2804cbdab11224e0494001d=42cbd0351cd14a10983ec422bdb53c53, ebc1706fe541429eb803b3dcd4c78c8a=ae179826c23c45a0a5a22bcc10a90b0f" />
+					<CaseStructure.Tunnel Bounds="606 45 13 10" Docking="Right" Id="19aa43ec57d5415bbdc759490fd9775f" Terminals="944a7210b6404c528b037c2907a360c3=c906ca2dc08a4e99abeec0d54dba3c39, bc97462496cb44fb8dcb46b3998a46a0=3b619f4a6de24eaca433d05041ed3506, e1fd37b2eb414ea0921b652410e254a5=8718dc84dfad4f4b989809027d4a89ef, 22b6e555f2804cbdab11224e0494001d=16ce59754a5242798709c648b0d61e75, ebc1706fe541429eb803b3dcd4c78c8a=ad3c52a683e64ae8b1201ab387c1a2f3" />
+					<CaseStructure.Tunnel Bounds="606 140 13 10" Docking="Right" Id="35f1bfa3c4d44e0fb2afb776c6e1f7a6" LinkedTunnel="a902f523ea4142bd9637428837064125" Terminals="944a7210b6404c528b037c2907a360c3=e1a91c57a9f244faa0d66ad056dead42, bc97462496cb44fb8dcb46b3998a46a0=4c45052b54a43e482b5da478ced99e7, e1fd37b2eb414ea0921b652410e254a5=607bb9997ff947649dd28d7e73ce0141, 22b6e555f2804cbdab11224e0494001d=443b83ccb604477caa6555b3808dccda, ebc1706fe541429eb803b3dcd4c78c8a=1cb4985d788541aaa4adb9c989cce8cf" />
+					<CaseStructure.Tunnel Bounds="606 110 13 10" Docking="Right" Id="2151374c14914c8199678abab46bcc8e" Terminals="944a7210b6404c528b037c2907a360c3=b4358336be61414db3047727542189e3, bc97462496cb44fb8dcb46b3998a46a0=a3db578289cc4071a084a1ef2a59aac3, e1fd37b2eb414ea0921b652410e254a5=1659b4a73878479bb57af80f82be18f4, 22b6e555f2804cbdab11224e0494001d=42cbd0351cd14a10983ec422bdb53c53, ebc1706fe541429eb803b3dcd4c78c8a=ae179826c23c45a0a5a22bcc10a90b0f" />
 					<CaseStructure.Tunnel Bounds="-4 110 13 10" Docking="Left" Id="4235520a4ccc4575b10ec0b8618d5bcd" Terminals="944a7210b6404c528b037c2907a360c3=4493e48c5f54afaa6fce02c3cd1067b, bc97462496cb44fb8dcb46b3998a46a0=a3db578289cc4071a084a1ef2a59aac3, e1fd37b2eb414ea0921b652410e254a5=ec430685da7045f1870e160cd3ceaecc, 22b6e555f2804cbdab11224e0494001d=364b27c739b14397ac443d7b22c7cfeb, ebc1706fe541429eb803b3dcd4c78c8a=8937da8655b24a5c964d8eca7c5bc332" />
 					<CaseStructure.Tunnel Bounds="-4 140 13 10" Docking="Left" Id="a902f523ea4142bd9637428837064125" Terminals="944a7210b6404c528b037c2907a360c3=5d902ac472284d13a90532e92e8f1de1, bc97462496cb44fb8dcb46b3998a46a0=4c45052b54a43e482b5da478ced99e7, e1fd37b2eb414ea0921b652410e254a5=f47f9608dced46dcb904e6baa5ae6bcf, 22b6e555f2804cbdab11224e0494001d=f1869753954c47fb98882f0f15d90268, ebc1706fe541429eb803b3dcd4c78c8a=8a076de81826487f8cebb58fd816053b" />
 					<CaseStructure.Tunnel Bounds="-4 75 13 10" Docking="Left" Id="4b21576e220f4112ba25b8487a27cbf6" Terminals="944a7210b6404c528b037c2907a360c3=20026f0ac4404ac7b9ce87d751a9c4b6, bc97462496cb44fb8dcb46b3998a46a0, e1fd37b2eb414ea0921b652410e254a5=9fe5a3d7e6ac4caab440a5a9e6a4c247, 22b6e555f2804cbdab11224e0494001d, ebc1706fe541429eb803b3dcd4c78c8a" />
 					<CaseStructure.Tunnel Bounds="-4 180 13 10" Docking="Left" Id="e576e0ed0ef747f38e30339448dd7bde" Terminals="944a7210b6404c528b037c2907a360c3=393098839be34ebc9139a80730f1fb3e, bc97462496cb44fb8dcb46b3998a46a0=5199a29efb144c4ca9557563a1687bdf, e1fd37b2eb414ea0921b652410e254a5=302d166d9644f9ba2cb80701bf40c52, 22b6e555f2804cbdab11224e0494001d=dfbfcddce9d0486a9b825bcdc2363589, ebc1706fe541429eb803b3dcd4c78c8a=76259d47cedf4c42ad38787e47737b7d" />
-					<CaseStructure.Tunnel Bounds="536 180 13 10" Docking="Right" Id="f3448bbf5859469a9e301e78146b548b" Terminals="944a7210b6404c528b037c2907a360c3=cfa0f98db5074aea823921ceb1389480, bc97462496cb44fb8dcb46b3998a46a0=5199a29efb144c4ca9557563a1687bdf, e1fd37b2eb414ea0921b652410e254a5=302d166d9644f9ba2cb80701bf40c52, 22b6e555f2804cbdab11224e0494001d=dfbfcddce9d0486a9b825bcdc2363589, ebc1706fe541429eb803b3dcd4c78c8a=6f6974825c23475d929c2cff47305a79" />
+					<CaseStructure.Tunnel Bounds="606 180 13 10" Docking="Right" Id="f3448bbf5859469a9e301e78146b548b" Terminals="944a7210b6404c528b037c2907a360c3=cfa0f98db5074aea823921ceb1389480, bc97462496cb44fb8dcb46b3998a46a0=5199a29efb144c4ca9557563a1687bdf, e1fd37b2eb414ea0921b652410e254a5=302d166d9644f9ba2cb80701bf40c52, 22b6e555f2804cbdab11224e0494001d=dfbfcddce9d0486a9b825bcdc2363589, ebc1706fe541429eb803b3dcd4c78c8a=6f6974825c23475d929c2cff47305a79" />
 				</CaseStructure>
 				<Wire Id="5131fff3e77d447d90b938d7f57dd4d4" Joints="N(c850b76b8a9942c383bb79eece4f47ef:i0)|(4,60) N(37b1062ea94b442aabe16dbe5ca0ebce:944a7210b6404c528b037c2907a360c3)|(21,60)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="c906ca2dc08a4e99abeec0d54dba3c39" Joints="N(19aa43ec57d5415bbdc759490fd9775f:944a7210b6404c528b037c2907a360c3)|(574,60) N(9e530cd34aa744df80fa4b87d2d3c9c2:17)|(591,60)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="e1a91c57a9f244faa0d66ad056dead42" Joints="N(35f1bfa3c4d44e0fb2afb776c6e1f7a6:944a7210b6404c528b037c2907a360c3)|(574,155) N(d8359d68acff4e7c8ddc34c587a84177:i0)|(591,155)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="b4358336be61414db3047727542189e3" Joints="N(2151374c14914c8199678abab46bcc8e:944a7210b6404c528b037c2907a360c3)|(574,125) N(8dbce0dadb594dfa8ab76675bac952a8:17)|(591,125)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="c906ca2dc08a4e99abeec0d54dba3c39" Joints="N(19aa43ec57d5415bbdc759490fd9775f:944a7210b6404c528b037c2907a360c3)|(644,60) N(9e530cd34aa744df80fa4b87d2d3c9c2:17)|(651,60)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="e1a91c57a9f244faa0d66ad056dead42" Joints="N(35f1bfa3c4d44e0fb2afb776c6e1f7a6:944a7210b6404c528b037c2907a360c3)|(644,155) N(d8359d68acff4e7c8ddc34c587a84177:i0)|(651,155)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="b4358336be61414db3047727542189e3" Joints="N(2151374c14914c8199678abab46bcc8e:944a7210b6404c528b037c2907a360c3)|(644,125) N(8dbce0dadb594dfa8ab76675bac952a8:17)|(651,125)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="4493e48c5f54afaa6fce02c3cd1067b" Joints="N(b03994464c484b2f8ed3e1df13ff82f2:i0)|(4,125) N(4235520a4ccc4575b10ec0b8618d5bcd:944a7210b6404c528b037c2907a360c3)|(21,125)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="5d902ac472284d13a90532e92e8f1de1" Joints="N(aabf8be744914d6c978019ab9b5a37f3:i0)|(4,155) N(a902f523ea4142bd9637428837064125:944a7210b6404c528b037c2907a360c3)|(21,155)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="20026f0ac4404ac7b9ce87d751a9c4b6" Joints="N(c14ed51d8c0d4d93942186d6e95c45a5:i0)|(4,90) N(4b21576e220f4112ba25b8487a27cbf6:944a7210b6404c528b037c2907a360c3)|(21,90)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="393098839be34ebc9139a80730f1fb3e" Joints="N(637df43bb3fc494e8efd53e21b5f3b18:i0)|(4,195) N(e576e0ed0ef747f38e30339448dd7bde:944a7210b6404c528b037c2907a360c3)|(21,195)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="cfa0f98db5074aea823921ceb1389480" Joints="N(f3448bbf5859469a9e301e78146b548b:944a7210b6404c528b037c2907a360c3)|(574,195) N(c78494d746574ed3adade6f46d992fdb:17)|(591,195)" xmlns="http://www.ni.com/PlatformFramework" />
-				<RightShiftRegister Bounds="596 60 13 10" Docking="Right" Id="9e530cd34aa744df80fa4b87d2d3c9c2" Terminals="16, 17=c906ca2dc08a4e99abeec0d54dba3c39" />
+				<Wire Id="cfa0f98db5074aea823921ceb1389480" Joints="N(f3448bbf5859469a9e301e78146b548b:944a7210b6404c528b037c2907a360c3)|(644,195) N(c78494d746574ed3adade6f46d992fdb:17)|(651,195)" xmlns="http://www.ni.com/PlatformFramework" />
+				<RightShiftRegister Bounds="656 60 13 10" Docking="Right" Id="9e530cd34aa744df80fa4b87d2d3c9c2" Terminals="16, 17=c906ca2dc08a4e99abeec0d54dba3c39" />
 				<LeftShiftRegister Bounds="-4 60 13 10" Docking="Left" Id="c850b76b8a9942c383bb79eece4f47ef" RightRegister="9e530cd34aa744df80fa4b87d2d3c9c2" Terminals="o0=f5213512ea8048c3834bbcdb5988756a, i0=5131fff3e77d447d90b938d7f57dd4d4" />
-				<LoopTunnel Bounds="596 155 13 10" Docking="Right" Id="d8359d68acff4e7c8ddc34c587a84177" Terminals="o0, i0=e1a91c57a9f244faa0d66ad056dead42" />
-				<RightShiftRegister Bounds="596 125 13 10" Docking="Right" Id="8dbce0dadb594dfa8ab76675bac952a8" Terminals="16, 17=b4358336be61414db3047727542189e3" />
+				<LoopTunnel Bounds="656 155 13 10" Docking="Right" Id="d8359d68acff4e7c8ddc34c587a84177" Terminals="o0, i0=e1a91c57a9f244faa0d66ad056dead42" />
+				<RightShiftRegister Bounds="656 125 13 10" Docking="Right" Id="8dbce0dadb594dfa8ab76675bac952a8" Terminals="16, 17=b4358336be61414db3047727542189e3" />
 				<LeftShiftRegister Bounds="-4 125 13 10" Docking="Left" Id="b03994464c484b2f8ed3e1df13ff82f2" RightRegister="8dbce0dadb594dfa8ab76675bac952a8" Terminals="o0, i0=4493e48c5f54afaa6fce02c3cd1067b" />
 				<LoopTunnel Bounds="-4 155 13 10" Docking="Left" Id="aabf8be744914d6c978019ab9b5a37f3" Terminals="o0=754a00455d17455d82a1c95bf316424f, i0=5d902ac472284d13a90532e92e8f1de1" />
 				<LoopTunnel Bounds="-4 90 13 10" Docking="Left" Id="c14ed51d8c0d4d93942186d6e95c45a5" Terminals="o0=e2824b5a9db94242a58d553bf7ad3395, i0=20026f0ac4404ac7b9ce87d751a9c4b6" />
 				<LeftShiftRegister Bounds="-4 195 13 10" Docking="Left" Id="637df43bb3fc494e8efd53e21b5f3b18" RightRegister="c78494d746574ed3adade6f46d992fdb" Terminals="o0=71d68891e4e4e159b956e9ab65bf2cf, i0=393098839be34ebc9139a80730f1fb3e" />
-				<RightShiftRegister Bounds="596 195 13 10" Docking="Right" Id="c78494d746574ed3adade6f46d992fdb" Terminals="16, 17=cfa0f98db5074aea823921ceb1389480" />
+				<RightShiftRegister Bounds="656 195 13 10" Docking="Right" Id="c78494d746574ed3adade6f46d992fdb" Terminals="16, 17=cfa0f98db5074aea823921ceb1389480" />
 			</WhileLoop>
 			<Comment Bounds="315 410 520 42" Id="28" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
 				<p.Text>Top-Level WebVIs usually contain a While Loop that never stops so that they can continue running as long as the web page is open in the user's web browser.</p.Text>
@@ -504,6 +546,14 @@
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="2991e59dc8b44a95a688868fdde81b40">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Command" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Timezone" DataType="String" />
+				</Members>
+			</Composite>
 		</p.TypeReference>
 		<p.TypeReference TypeId="bde67ec8aaa640ae8a61a8c6413623e6">
 			<Attributed AttributedType="@79b921f68bf2444192665bef2920073f">
