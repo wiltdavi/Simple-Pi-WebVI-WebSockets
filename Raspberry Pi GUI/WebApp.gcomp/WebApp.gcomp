@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="8F11412930CFB6FD8F1CC550CB9E459E787251B8B75307D479937A6A0021455418A9146F44121F681B1A37842DBFD7A33AB3FABC4B74BD76822623E16CBC4217" Timestamp="1D6B193317FAB9D" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="755665A1991DB4B3D2EB35D1EAF4E41411DCDC061A4297CFE391244E804461D05EE525C095D946EF9B6AE4D7C56A39C5E8C74437251767E5A0D7B2242E6FFA6D" Timestamp="1D6D5729FAABE64" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
@@ -29,7 +29,6 @@
 				<SourceFileReference Id="15" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="index.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="index.gviweb" />
 				<SourceFileReference Bindings="EnvoyManager" Id="e31b7bbad8ad436ab27d89a51f023896" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibrary" Name="GetHostname.jsli" StoragePath="GetHostname.jsli" />
 				<FileReference Bindings=".js" Id="f17ab92648d746e894912404db9fcb2e" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="GetHostname.js" StoragePath="GetHostname.js" />
-				<SourceFileReference Bindings="EnvoyManager" Id="9b97fbfe82c4472d824290acba7a4c4c" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="State.gtype" StoragePath="State.gtype\State.gtype" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="9" Name="WebApp.gcomp" NameTracksFileName="True">
