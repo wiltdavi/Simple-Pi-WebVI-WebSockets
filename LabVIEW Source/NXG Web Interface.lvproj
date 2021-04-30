@@ -97,13 +97,10 @@ AddOutputFilter chunkFilter
 		<Item Name="Controls" Type="Folder">
 			<Item Name="State.ctl" Type="VI" URL="../Controls/State.ctl"/>
 		</Item>
-		<Item Name="HttpConfigurations" Type="Folder">
-			<Item Name="http_localhost.json" Type="Document" URL="../Support/http_localhost.json"/>
-		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="rpi" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
-			<Property Name="Bld_version.build" Type="Int">29</Property>
+			<Property Name="Bld_version.build" Type="Int">30</Property>
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
 			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
@@ -117,7 +114,7 @@ AddOutputFilter chunkFilter
 			<Property Name="ws.serveDefaultDoc" Type="Bool">true</Property>
 			<Property Name="ws.SSE2" Type="Bool">true</Property>
 			<Property Name="ws.static_permissions" Type="Str"></Property>
-			<Property Name="ws.version.build" Type="Int">29</Property>
+			<Property Name="ws.version.build" Type="Int">30</Property>
 			<Property Name="ws.version.fix" Type="Int">0</Property>
 			<Property Name="ws.version.major" Type="Int">1</Property>
 			<Property Name="ws.version.minor" Type="Int">0</Property>
@@ -245,7 +242,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{03FA45FA-400A-4042-85D9-06589A8B68D5}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">36</Property>
+				<Property Name="Bld_version.build" Type="Int">37</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -259,12 +256,8 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[2].path" Type="Path">/home/lvuser/natinst/bin/webroot</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[3].destName" Type="Str">HttpConfigurations</Property>
-				<Property Name="Destination[3].path" Type="Path">/etc/natinst/niskyline/HttpConfigurations</Property>
-				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{67C2A672-3DF0-4DBA-8484-8D9F273B988D}</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{71F57FB2-5FD5-4D23-9C72-B125659A6EAB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Raspberry Pi/Main.vi</Property>
@@ -272,11 +265,10 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/Raspberry Pi/HttpConfigurations</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/Raspberry Pi/HttpConfigurations/http_localhost.json</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">MediaMongrels Ltd</Property>
