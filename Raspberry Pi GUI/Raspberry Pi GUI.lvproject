@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="0F8C1A49DCD6E57055EEB34D510DB9EC2AE599DB4651DA2F378EBE6222CB1725164EDB9648C497E919C9B82C07D48EC0DFE848CD810D5B56D3F69EC764582915" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="55CF2CDFA43B1CB2132916F9708406CB481886B0AE1FC91958029B05DB83E6121F71279A3CB5DA020059D326A1EFA87018C1A0F099047A33781347C663819024" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Builders/SystemDesigner" Name="http://www.ni.com/Builders/SystemDesigner/SystemModel" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Data" Name="http://www.ni.com/Data" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
@@ -167,6 +167,9 @@
 						<WeakDefaultComponentConfigurationReference Id="6191161f1fa74c57a5c42259ed21b249" PackageName="ni-skyline-utilities-src-20.0.0.niaddon" Target="NI.SL.Utilities.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="c18544d8174e48dcbcc2d1f6798082c1" PackageName="ni-visa-base-src-20.0.0.niaddon" Target="VISA.gcomp" />
 						<ComponentConfigurationReferenceDependencySource Id="7abb0550790f4e5cb59e625ddfca0082" Target="JKI.Library.JKI State Machine.gcomp::Default" />
+						<WeakDefaultComponentConfigurationReference Id="f7f4fb01d8dd4c51a970a19609b95e24" PackageName="ni-skyline-file-src-20.0.0.niaddon" Target="NI.SL.File.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="ddc052faf9894c538b9be2c9855de1e0" PackageName="ni-skyline-tdmreader-src-20.0.0.niaddon" Target="NI.SL.TDMReader.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="87c060ad6ebe4972a18334b2ff0a749d" PackageName="rajsite-debugtools-debugtools-src-1.0.0.6.niaddon" Target="DebugTools.gcomp" />
 					</BuildSpecificationDefinition>
 					<EmbeddedDefinitionReference Id="32" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 						<PackageReferencesDefinition />
@@ -189,6 +192,9 @@
 						<SourceFileReference Bindings="EnvoyManager" Id="da100c56c60c4c2eac2c1d9158ff1d1e" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-taghttp-src-20.0.0.niaddon" StoragePath="ref://NI/Skyline/taghttp-src/20.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="ce6c9302400a4cc58703bd2476eb3ff7" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-utilities-src-20.0.0.niaddon" StoragePath="ref://NI/Skyline/utilities-src/20.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="33ecb0f132824bbf8c18772ab291b30b" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-visa-base-src-20.0.0.niaddon" StoragePath="ref://NI/VISA/Base-src/20.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="9a548051222a478d9f4a7050f3735f58" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-file-src-20.0.0.niaddon" StoragePath="ref://NI/Skyline/file-src/20.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="3206cd32d1854b8a91f90e92b2153326" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-tdmreader-src-20.0.0.niaddon" StoragePath="ref://NI/Skyline/tdmreader-src/20.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="52b0755c1df74a83bd59ab98f7a32d1b" ModelDefinitionType="PackageInterfaceDefinition" Name="rajsite-debugtools-debugtools-src-1.0.0.6.niaddon" StoragePath="ref://rajsite/DebugTools/DebugTools-src/1.0.0.6" />
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library,ComponentMoC" Id="11" ModelDefinitionType="ComponentDefinition" Name="Default Component">
 						<ComponentDefinition DefaultConfigurationName="Default" Id="12" RootNamespaceId="11" xmlns="http://www.ni.com/GComponent.xsd">
@@ -314,6 +320,9 @@
 						<WeakDefaultComponentConfigurationReference Id="8c233cb6d34e467aab7a6ebaca4f5b2c" PackageName="ni-skyline-utilities-src-20.0.0.niaddon" Target="NI.SL.Utilities.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="bb021bda23a44797a00f8d16610234f6" PackageName="ni-visa-base-src-20.0.0.niaddon" Target="VISA.gcomp" />
 						<ComponentConfigurationReferenceDependencySource Id="3a8b195799854bf38f2785fb40e1f566" Target="JKI.Library.JKI State Machine.gcomp::Default" />
+						<WeakDefaultComponentConfigurationReference Id="990a72d711c842d2b40100ee7317c1db" PackageName="ni-skyline-file-src-20.0.0.niaddon" Target="NI.SL.File.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1fe37a491ec448a49a1ef7f8d284e708" PackageName="ni-skyline-tdmreader-src-20.0.0.niaddon" Target="NI.SL.TDMReader.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="bbb5523efbfa4addbdee859f1da785dd" PackageName="rajsite-debugtools-debugtools-src-1.0.0.6.niaddon" Target="DebugTools.gcomp" />
 					</BuildSpecificationDefinition>
 					<EmbeddedDefinitionReference Id="550" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 						<PackageReferencesDefinition />
@@ -336,6 +345,9 @@
 						<SourceFileReference Bindings="EnvoyManager" Id="7d15d53aa404496eb865c4882aa732e0" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-taghttp-src-20.0.0.niaddon" StoragePath="ref://NI/Skyline/taghttp-src/20.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="67d15ecc23d94b25a64aff027443db7b" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-utilities-src-20.0.0.niaddon" StoragePath="ref://NI/Skyline/utilities-src/20.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="81f8764b8cf948b5a4869d00f4056ff9" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-visa-base-src-20.0.0.niaddon" StoragePath="ref://NI/VISA/Base-src/20.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="757facc90e4b45a9a094a78d653a9125" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-file-src-20.0.0.niaddon" StoragePath="ref://NI/Skyline/file-src/20.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="161e52b07b1402193129852e060be5f" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-tdmreader-src-20.0.0.niaddon" StoragePath="ref://NI/Skyline/tdmreader-src/20.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="3bcc220a289e4089ae3ef06dbf616ce9" ModelDefinitionType="PackageInterfaceDefinition" Name="rajsite-debugtools-debugtools-src-1.0.0.6.niaddon" StoragePath="ref://rajsite/DebugTools/DebugTools-src/1.0.0.6" />
 					</EmbeddedDefinitionReference>
 					<SourceFileReference Bindings="EnvoyManager,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent" Id="759" ModelDefinitionType="ComponentDefinition" Name="WebApp.gcomp" StoragePath="WebApp.gcomp\WebApp.gcomp" />
 					<SourceFileReference Bindings="{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library,ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.LibraryComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,EnvoyManager" Id="4735a2628e8d43f4ab4d9b02e904e9d6" ModelDefinitionType="ComponentDefinition" Name="JKI.Library.JKI State Machine.gcomp" StoragePath="JKI.Library.JKI State Machine.gcomp\JKI.Library.JKI State Machine.gcomp" />
@@ -365,6 +377,9 @@
 					<PackageInterfaceDefinitionContents Contents="NI.SL.Tag.gcomp" Id="7e0abd60d4ac47dfa1b1ecfe3d731cf1" PackageInterfaceDefinitionEnvoyId="3ff362aa492a4067a864ee515726bc6c" />
 					<PackageInterfaceDefinitionContents Contents="NI.SL.Utilities.gcomp" Id="bfcad6d5665349c3ada1e15ba0cae115" PackageInterfaceDefinitionEnvoyId="b7d2568c844e4d489f31657128cfc295" />
 					<PackageInterfaceDefinitionContents Contents="VISA.gcomp" Id="399c8b4971a34364b6cb63629bbf406a" PackageInterfaceDefinitionEnvoyId="b70b307fdc4ad7a49737b69ba70629" />
+					<PackageInterfaceDefinitionContents Contents="NI.SL.File.gcomp" Id="b60e400adc0e40408c6a75dbd8e29fa9" PackageInterfaceDefinitionEnvoyId="60aaf7da4da44c1c9894389432da6f39" />
+					<PackageInterfaceDefinitionContents Contents="NI.SL.TDMReader.gcomp" Id="fc05c0ae6ecc427da778c8567d555017" PackageInterfaceDefinitionEnvoyId="9a714ef8af464bd2a95c49498c7bf6e4" />
+					<PackageInterfaceDefinitionContents Contents="DebugTools.gcomp" Id="30a1370e0b444365b87abe5203e6ff78" PackageInterfaceDefinitionEnvoyId="b87ddd156caa4f44b80d908982d906dd" />
 				</PackageReferencesDefinition>
 				<SourceFileReference Bindings="EnvoyManager" Id="98cf2cf4b4084a1d964cb154acd3ef30" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-actorframework-aflib-src-1.0.1.0.niaddon" StoragePath="ref://NI/ActorFramework/aflib-src/1.0.1.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="9ee12163716649fc8a56f2b488cc61c7" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-analysis-advanced-src-1.0.8.5.niaddon" StoragePath="ref://NI/analysis/advanced-src/1.0.8.5" />
@@ -385,8 +400,12 @@
 				<SourceFileReference Bindings="EnvoyManager" Id="3ff362aa492a4067a864ee515726bc6c" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-taghttp-src-20.0.0.niaddon" StoragePath="ref://NI/Skyline/taghttp-src/20.0.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="b7d2568c844e4d489f31657128cfc295" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-utilities-src-20.0.0.niaddon" StoragePath="ref://NI/Skyline/utilities-src/20.0.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="b70b307fdc4ad7a49737b69ba70629" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-visa-base-src-20.0.0.niaddon" StoragePath="ref://NI/VISA/Base-src/20.0.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="60aaf7da4da44c1c9894389432da6f39" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-file-src-20.0.0.niaddon" StoragePath="ref://NI/Skyline/file-src/20.0.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="9a714ef8af464bd2a95c49498c7bf6e4" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-tdmreader-src-20.0.0.niaddon" StoragePath="ref://NI/Skyline/tdmreader-src/20.0.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="b87ddd156caa4f44b80d908982d906dd" ModelDefinitionType="PackageInterfaceDefinition" Name="rajsite-debugtools-debugtools-src-1.0.0.6.niaddon" StoragePath="ref://rajsite/DebugTools/DebugTools-src/1.0.0.6" />
 			</EmbeddedDefinitionReference>
 			<SourceFileReference Bindings="EnvoyManager" Id="2b82e863c8764013a0631daa703e901f" ModelDefinitionType="{http://www.ni.com/Data}DataIndexDefinition" Name="data.xml" StoragePath="NI Project Data\data.xml" />
+			<SourceFileReference Id="f8252c2eec0f4c369efa8bd5119b32aa" ModelDefinitionType="DistributionDefinition" Name="WebApp.lvdist" StoragePath="WebApp.lvdist" />
 		</NameScopingEnvoy>
 		<SourceFileReference Id="229106676d934581bbaeb36e1088f330" ModelDefinitionType="SystemManagementDefinition" Name="SystemDesigner" StoragePath="SystemDesigner" />
 	</Project>

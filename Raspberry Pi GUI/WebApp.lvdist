@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="6FF03F4501FC3A813C3B6DFDD23AD8A369B49634FFF170FA0BDB10E4D8403E6E989557017DEF138761C2357AE5B57BF0A4FCCDE85965364BCE1CC452480605FC" Timestamp="1D7405AEA134DA8" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Company="The New Standard LLC" Product="WebApp" ShortDescription="The New Standard LLC Raspberry Pi GUI" TargetedProduct="LabVIEW" Version="1.0.0.1" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionOutput CachedDisplayName="Package" Id="3a4bf45eb2af4f149629c303c86bac8b" OutputTypeIdentifier="DistributionOutputType:NiPackage" p3:CustomNipmPackageName="thenewstandardllc-raspberrypigui" p3:DistributionCategory="Application" p3:MaintainerEmail="david.wilt@tns-eta.com" p3:MaintainerName="The New Standard LLC" p3:PackageDisplayName="WebApp" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="3b3bf2fe76014b5d92033682d2ad0dac" Target="::Web Server" />
+		<DistributionMemberDependencySource Id="763ceecccad14319b2c26dd0a6fe2c53" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Rebuild" RelativeLocation="&quot;Web Server\\htdocs\\WebApp&quot;" RootLocation="NISharedDirectory64" Target="::Web Server::Interactive::WebApp.gcomp" />
+		<DistributionDependencyContent DisplayName="NI Web Server" Id="e6a3bf8f457541c1ab313ae6f1c54c0b" Included="False" MaintainerName="National Instruments" Name="ni-webserver" Version="20.0.0.49152-0+f0" />
+	</DistributionDefinition>
+</SourceFile>
